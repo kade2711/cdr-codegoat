@@ -1,4 +1,4 @@
 provider "aws" {
-  access_key = "AKIAIOSFODNN7EXAMPLE"
-  secret_key = "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"
+  access_key = ${{ secrets.access}}
+  secret_key = ${{ secrets.key}}
 }
