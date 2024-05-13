@@ -58,7 +58,7 @@ Resources:
 
   ############
   ###  S3  ###
-  ############
+  ############ 
 
   DataBucket:
     # Public, not encrypted, no access logs, no versioning
