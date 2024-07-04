@@ -1,4 +1,4 @@
-FROM ubuntu:jammy-20221020
+FROM ubuntu:latest
 
 # Disable Prompt During Packages Installation
 ARG DEBIAN_FRONTEND=noninteractive
