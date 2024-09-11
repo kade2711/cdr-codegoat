@@ -10,7 +10,7 @@ resource "aws_iam_policy" "policy_resource_fail" {
         Action = [
           "ec2:*",
         ]
-        Effect   = "Allow"
+        Effect   = "Deny"
         Resource = "arn:aws:ec2:*"
       },
       {
